@@ -6,6 +6,6 @@ class ConsolePrint extends AbstractOutput
 {
     public function printValue($value)
     {
-        echo $value;
+        echo $value . "\n";
     }
 }

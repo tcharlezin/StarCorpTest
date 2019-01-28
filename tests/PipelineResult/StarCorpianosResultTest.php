@@ -11,19 +11,19 @@ class StarCorpianosResultTest extends TestCase
     public function testPipelineDigit15()
     {
         $this->load(new ConsolePrint(15, 15))->execute();
-        $this->expectOutputString("StarCorpianos");
+        $this->expectOutputString("StarCorpianos\n");
     }
 
     public function testPipelineDigit30()
     {
         $this->load(new ConsolePrint(30, 30))->execute();
-        $this->expectOutputString("StarCorpianos");
+        $this->expectOutputString("StarCorpianos\n");
     }
 
     public function testPipelineDigit45()
     {
         $this->load(new ConsolePrint(45, 45))->execute();
-        $this->expectOutputString("StarCorpianos");
+        $this->expectOutputString("StarCorpianos\n");
     }
 
     protected function load(\StarCorp\Interfaces\IOutput $output)

@@ -11,19 +11,19 @@ class NumberResultTest extends TestCase
     public function testPipelineDigit2()
     {
         $this->load(new ConsolePrint(2, 2))->execute();
-        $this->expectOutputString("2");
+        $this->expectOutputString("2\n");
     }
 
     public function testPipelineDigit4()
     {
         $this->load(new ConsolePrint(4, 4))->execute();
-        $this->expectOutputString("4");
+        $this->expectOutputString("4\n");
     }
 
     public function testPipelineDigit8()
     {
         $this->load(new ConsolePrint(8, 8))->execute();
-        $this->expectOutputString("8");
+        $this->expectOutputString("8\n");
     }
 
     protected function load(\StarCorp\Interfaces\IOutput $output)
