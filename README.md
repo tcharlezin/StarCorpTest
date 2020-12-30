@@ -1,15 +1,15 @@
-# Implementação do teste em PHP.
+# Senior PHP test - SOLID Principles.
 
-## Requerimentos
-- Ter PHP instalado
-- Ter composer instalado
+## Requirements
+- php;
+- composer;
 
-## Instalação
+## Install
 - git clone https://github.com/tcharlezin/StarCorpTest.git
 - cd StarCorpTest
 - composer install
 - php index.php
 
-## Executar os testes
+## Execute tests
 - cd StarCorpTest
 - ./vendor/bin/phpunit tests
