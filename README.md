@@ -1,5 +1,11 @@
 # Senior PHP test - SOLID Principles.
 
+Is a fizz buzz exercise, applying SOLID principles.
+This code have just one IF, and is based on the Chain of Responsability principle to solve.
+A possible improvement, is inject the dependencies (outputs) by a service container.
+
+A decoupled code that examplify how SOLID should be used.
+
 ## Requirements
 - php;
 - composer;
